@@ -1,0 +1,36 @@
+.category {
+    padding: 20px;
+}
+
+.category h1, .contact-section h2{
+    text-align: center;
+    margin: 0% 0% 4% 0%;
+}
+
+.category-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category-item {
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white; 
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px; 
+    font-size:large;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.category-item:hover {
+    background-color: rgb(247, 245, 216); 
+    color: rgb(26, 26, 26); 
+    transform: scale(1.05); 
+}

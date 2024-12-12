@@ -1,0 +1,44 @@
+.profile-section {
+    padding: 20px;
+    background-color: rgba(247, 245, 216, 0.637);
+    max-width: 400px;
+    margin: 10% auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.profile-initial {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(247, 245, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 3rem;
+    margin: 0 auto 20px auto;
+}
+
+.profile-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.profile-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(247, 245, 216);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-section button:hover {
+    background-color: rgb(247, 245, 216);
+    color: rgb(26, 26, 26);
+}
