@@ -13,8 +13,8 @@ document.getElementById("aboutSection").innerHTML = `
             <div class="about-contact">
                 <h2>Contact Us</h2>
                 <p>Email: contact@richlibrary.com</p>
-                <p>Phone: +1 234 567 890</p>
-                <p>Address: 123 Library Lane, Booktown, BK 12345</p>
+                <p>Phone: 0123 45 67 89</p>
+                <p>Address: University of Moratuwa, Bandaranayake Mawatha, Moratuwa</p>
             </div>
         </div>
     </div>
